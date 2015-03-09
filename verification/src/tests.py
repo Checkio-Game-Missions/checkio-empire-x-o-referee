@@ -1,5 +1,5 @@
 TESTS = {
-    "Rank_1": [
+    "Rank_01": [
         {
             "input": ["X.O",
                       "XX.",
@@ -28,8 +28,6 @@ TESTS = {
             "answer": "X",
             "explanation": [1, [3, 0], [0, 3]]
         },
-    ],
-    "2. Extra": [
         {
             "input": ["OOO",
                       "XX.",
@@ -142,7 +140,80 @@ TESTS = {
             "answer": "X",
             "explanation": [1, [0, 2.5], [3, 2.5]]
         },
+    ],
+    "Rank_02": [
+        {
+            "input": [".OX",
+                      ".OX",
+                      ".OX"],
+            "answer": "D",
+            "explanation": [
+                [1, [0, 2.5], [3, 2.5]],
+                [0, [0, 1.5], [3, 1.5]]]
+        },
+        {
+            "input": ['.XO',
+                      'XXX',
+                      'OOO'],
+            "answer": "D",
+            "explanation": [
+                [0, [2.5, 0], [2.5, 3]],
+                [1, [1.5, 0], [1.5, 3]]],
 
+        },
+        {
+            "input": ['XXX',
+                      'X.O',
+                      'OOO'],
+            "answer": "D",
+            "explanation": [
+                [0, [2.5, 0], [2.5, 3]],
+                [1, [0.5, 0], [0.5, 3]]
+            ],
+
+        },
+    ],
+    "Rank_03": [
+        {
+            "input": ['XOO.',
+                      '.X.O',
+                      'X.OO',
+                      'XXOX'],
+            "answer": "D",
+            "explanation": [
+            ],
+        },
+        {
+            "input": ['XOO.',
+                      '.X.O',
+                      'XXOO',
+                      'XXOX'],
+            "answer": "X",
+            "explanation": [
+                [1, [1, 1.5], [4, 1.5]]
+            ],
+        },
+        {
+            "input": ['XOO.',
+                      '.XOO',
+                      'XXOO',
+                      'XXOX'],
+            "answer": "D",
+            "explanation": [
+                [1, [1, 1.5], [4, 1.5]],
+                [0, [0, 2.5], [4, 2.5]],
+            ],
+        },
+        {
+            "input": ['XOO.',
+                      '.XOO',
+                      'XXOO',
+                      'XOOX'],
+            "answer": "D",
+            "explanation": [
+                [0, [1, 4], [4, 1]],
+            ],
+        },
 
     ]
 }
