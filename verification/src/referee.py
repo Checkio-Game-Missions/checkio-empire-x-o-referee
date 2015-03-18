@@ -1,4 +1,3 @@
-from checkio_referee import RefereeBase
 from checkio_referee.rank import RefereeRank
 
 import settings
@@ -14,7 +13,7 @@ class Referee(RefereeRank):
     TESTS = TESTS
     EXECUTABLE_PATH = settings.EXECUTABLE_PATH
     CURRENT_ENV = settings_env.CURRENT_ENV
-    FUNCTION_NAME = "referee"
+    FUNCTION_NAME = "xo_referee"
     ENV_COVERCODE = {
         "python_2": cover,
         "python_3": None,

@@ -1,15 +1,15 @@
 **Example:**
 
 ```python
-referee([
+xo_referee([
     "X.O",
     "XX.",
     "XOO"]) == "X"
-referee([
+xo_referee([
     "OO.",
     "XOX",
     "XOX"]) == "O"
-referee([
+xo_referee([
     "OOX",
     "XXO",
     "OXX"]) == "D"
