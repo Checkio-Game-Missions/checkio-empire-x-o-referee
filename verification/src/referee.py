@@ -1,6 +1,6 @@
 from checkio_referee.rank import RefereeRank
 
-import settings
+
 import settings_env
 from tests import TESTS
 
