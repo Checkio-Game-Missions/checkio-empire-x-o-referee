@@ -21,3 +21,24 @@ if __name__ == '__main__':
         "XX.",
         "XOO"]) == "X", "Xs wins again"
 
+    # Rank 2
+    assert xo_referee([
+        ".OX",
+        ".OX",
+        ".OX"]) == "D", "Mexican Vertical Duel"
+    assert xo_referee([
+        '.XO',
+        'XXX',
+        'OOO']) == "D", "Mexican Horizontal Duel"
+
+    # Rank 3
+    assert xo_referee([
+        'XOO.',
+        '.X.O',
+        'X.OO',
+        'XXOX']) == "D", "4WD"
+    assert xo_referee([
+        'XOO.',
+        '.X.O',
+        'XXOO',
+        'XXOX']) == "X", "4X4"
