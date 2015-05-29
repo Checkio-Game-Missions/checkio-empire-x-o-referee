@@ -209,7 +209,7 @@ TESTS = {
                       '.XOO',
                       'XXOO',
                       'XOOX'],
-            "answer": "D",
+            "answer": "O",
             "explanation": [
                 [0, [1, 4], [4, 1]],
             ],
