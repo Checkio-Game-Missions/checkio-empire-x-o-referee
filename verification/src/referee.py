@@ -1,4 +1,4 @@
-from checkio_referee.rank import RefereeRank
+from checkio_referee import RefereeRank
 
 
 import settings_env
@@ -15,7 +15,8 @@ class Referee(RefereeRank):
 
     DEFAULT_FUNCTION_NAME = "xo_referee"
     ENV_COVERCODE = {
-        "python_2": cover,
         "python_3": None,
         "javascript": None
     }
+
+
