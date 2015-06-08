@@ -10,10 +10,25 @@ if the game ends in a win or a draw as well as who will be the winner.
 Make sure to return "X" if the X-player wins and "O" if the O-player wins. 
 If the game is a draw, return "D".
 
-![X-O](x-o-referee.svg)
+```
+ X | . | O 
+-*-|---|---
+ X | X | .   X Wins
+-*-|---|---
+ X | O | O
+
+ O | O | . 
+---|-*-|---
+ X | O | X   O Wins
+---|-*-|---
+ X | O | . 
+ 
+ O | O | X 
+---|---|---
+ X | X | O   Draw
+---|---|---
+ O | X | X
+```
 
 A game's result is presented as a list of strings, 
 where "X" and "O" are players' marks and "." is the empty cell.
-
-
-
