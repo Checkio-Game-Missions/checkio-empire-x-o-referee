@@ -4,10 +4,6 @@ from checkio_referee import RefereeRank, ENV_NAME
 import settings_env
 from tests import TESTS
 
-cover = """def cover(func, data):
-    return func([str(row) for row in data])
-"""
-
 
 class Referee(RefereeRank):
     TESTS = TESTS
