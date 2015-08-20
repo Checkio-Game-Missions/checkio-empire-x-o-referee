@@ -42,3 +42,4 @@ if __name__ == '__main__':
         '.X.O',
         'XXOO',
         'XXOX']) == "X", "4X4"
+    print("Earn cool rewards by using the 'Check' button!")
